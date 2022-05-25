@@ -430,19 +430,31 @@ body {
 
 footer{
     background-color: $blue-color;
-    height: 300px;
+
+    height: 500px;
     border-radius: 70px 70px 0 0;
     padding-bottom: 50px;
 
     hr{
         color: white;
     }
+    img{
+      position: absolute;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -40%);
+    }
+
+    a{
+      width: 20px;
+      text-decoration: none;
+    }
 
     .footer-tittle{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 10px;
+
+        line-height: 10px;    
+        padding-top: 120px;
+        padding-bottom: 10px;
         /* or 31% */
 
         display: flex;
@@ -453,7 +465,9 @@ footer{
 
     .footer-list{
         list-style: none;
-        padding: 0;
+        font-size: 24px;
+        text-align: center;
+        padding:10px;
 
         li{
             padding: 0;
