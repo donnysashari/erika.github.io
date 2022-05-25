@@ -111,7 +111,7 @@ section .section-tittle {
 }
 
 body {
-  background: url("img/pattern-solo.png");
+  background: url("../img/pattern-solo.png");
 }
 
 .hero .header {
@@ -653,9 +653,9 @@ body {
 
 footer {
   background-color: #3D62A2;
-    height: 500px;
-    border-radius: 70px 70px 0 0;
-    padding-bottom: 50px;
+  height: 500px;
+  border-radius: 70px 70px 0 0;
+  padding-bottom: 50px;
 }
 
 footer hr {
@@ -663,16 +663,16 @@ footer hr {
 }
 
  footer a {
-      width: 20px;
-      text-decoration: none;
-    }
+   width: 20px;
+   text-decoration: none;
+}
 
 footer img {
-      position: absolute;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -40%);
-    }
+   position: absolute;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -40%);
+}
 
 footer .footer-tittle {
   font-style: normal;
@@ -690,10 +690,10 @@ footer .footer-tittle {
 }
 
 footer .footer-list {
-        list-style: none;
-        font-size: 24px;
-        text-align: center;
-        padding:10px;
+  list-style: none;
+  font-size: 24px;
+  ext-align: center;
+  padding:10px;
 }
 
 footer .footer-list li {
